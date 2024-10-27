@@ -1,0 +1,27 @@
+.landingContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: flex-start; /* Align items at the top */
+    overflow-y: auto; /* Allow vertical scrolling */
+    padding-bottom: 20px; /* Add padding at the bottom */
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlayImage {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    margin: auto 0;
+    opacity: 1; /* Adjust the transparency */
+}
